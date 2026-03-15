@@ -1,3 +1,88 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+background-color: #111;
+color: #eee;
+line-height: 1.6;
+}
+
+.hero {
+text-align: center;
+padding: 100px 20px;
+background: linear-gradient(180deg,#1a1a1a,#0e0e0e);
+}
+
+.hero h1 {
+font-size: 42px;
+margin-bottom: 10px;
+}
+
+.tagline {
+font-size: 20px;
+color: #aaa;
+margin-bottom: 15px;
+}
+
+.intro {
+max-width: 600px;
+margin: auto;
+color: #ccc;
+}
+
+nav {
+background: #1c1c1c;
+text-align: center;
+padding: 15px;
+}
+
+nav a {
+color: #ddd;
+margin: 0 20px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #fff;
+}
+
+section {
+max-width: 900px;
+margin: auto;
+padding: 60px 20px;
+}
+
+.project {
+background: #1a1a1a;
+padding: 25px;
+margin-top: 20px;
+border-radius: 8px;
+}
+
+.project h3 {
+margin-top: 0;
+}
+
+.project a {
+color: #5da9ff;
+text-decoration: none;
+}
+
+.project a:hover {
+text-decoration: underline;
+}
+
+.featured {
+border-left: 4px solid #5da9ff;
+}
+
+footer {
+text-align: center;
+padding: 40px;
+background: #1a1a1a;
+margin-top: 60px;
+}
+
 .project {
 
 background: #1a1a1a;
