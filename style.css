@@ -188,3 +188,61 @@ margin-bottom:6px;
 color:#5da9ff;
 font-weight:600;
 }
+
+/* FULL WIDTH PROJECT */
+
+.project-wide{
+
+grid-column:1 / -1;
+
+background:#181818;
+
+padding:30px;
+
+border-radius:10px;
+
+margin-top:10px;
+
+}
+
+.project-wide .banner{
+
+height:240px;
+
+margin-bottom:20px;
+
+}
+
+.wide-intro{
+
+color:#ccc;
+
+max-width:800px;
+
+margin-bottom:30px;
+
+}
+
+.wide-project{
+
+margin-bottom:40px;
+
+}
+
+.wide-project h4{
+
+color:#5da9ff;
+
+margin-bottom:6px;
+
+}
+
+.wide-project ul{
+
+color:#ccc;
+
+padding-left:18px;
+
+margin-top:8px;
+
+}
