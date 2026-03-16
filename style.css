@@ -4,6 +4,7 @@ margin:0;
 background:#0f0f0f;
 color:#eee;
 line-height:1.6;
+font-size:16px;
 }
 
 
@@ -16,7 +17,7 @@ background:linear-gradient(180deg,#1a1a1a,#0d0d0d);
 }
 
 .hero h1{
-font-size:42px;
+font-size:44px;
 margin-bottom:10px;
 }
 
@@ -26,7 +27,7 @@ color:#aaa;
 }
 
 .intro{
-max-width:650px;
+max-width:700px;
 margin:auto;
 color:#ccc;
 margin-top:10px;
@@ -58,11 +59,37 @@ color:white;
 section{
 max-width:1100px;
 margin:auto;
-padding:60px 20px;
+padding:70px 20px;
+}
+
+h2{
+font-size:28px;
+margin-bottom:20px;
 }
 
 
-/* FEATURED */
+/* DESIGN FOCUS */
+
+.focus-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.focus-card{
+background:#181818;
+padding:20px;
+border-radius:8px;
+}
+
+.focus-card h3{
+margin-top:0;
+color:#5da9ff;
+}
+
+
+/* FEATURED PROJECT */
 
 .featured-project{
 display:grid;
@@ -112,6 +139,30 @@ margin-top:0;
 }
 
 
+/* FULL WIDTH PROJECT */
+
+.project-wide{
+grid-column:1 / -1;
+background:#181818;
+padding:30px;
+border-radius:10px;
+}
+
+.wide-project{
+margin-top:40px;
+}
+
+.wide-project h4{
+color:#5da9ff;
+margin-bottom:6px;
+}
+
+.wide-project ul{
+color:#ccc;
+padding-left:18px;
+}
+
+
 /* MEDIA */
 
 .media{
@@ -121,7 +172,7 @@ margin-bottom:15px;
 
 .media iframe{
 width:100%;
-height:260px;
+height:280px;
 border:none;
 border-radius:6px;
 }
@@ -136,7 +187,7 @@ border-radius:6px;
 
 .banner{
 width:100%;
-height:180px;
+height:200px;
 object-fit:cover;
 border-radius:8px;
 margin-bottom:12px;
@@ -160,7 +211,7 @@ margin-left:8px;
 .button{
 display:inline-block;
 margin-top:10px;
-padding:9px 16px;
+padding:10px 18px;
 background:#5da9ff;
 color:white;
 border-radius:6px;
@@ -180,69 +231,4 @@ text-align:center;
 padding:40px;
 background:#151515;
 margin-top:60px;
-}
-
-.project h4{
-margin-top:20px;
-margin-bottom:6px;
-color:#5da9ff;
-font-weight:600;
-}
-
-/* FULL WIDTH PROJECT */
-
-.project-wide{
-
-grid-column:1 / -1;
-
-background:#181818;
-
-padding:30px;
-
-border-radius:10px;
-
-margin-top:10px;
-
-}
-
-.project-wide .banner{
-
-height:240px;
-
-margin-bottom:20px;
-
-}
-
-.wide-intro{
-
-color:#ccc;
-
-max-width:800px;
-
-margin-bottom:30px;
-
-}
-
-.wide-project{
-
-margin-bottom:40px;
-
-}
-
-.wide-project h4{
-
-color:#5da9ff;
-
-margin-bottom:6px;
-
-}
-
-.wide-project ul{
-
-color:#ccc;
-
-padding-left:18px;
-
-margin-top:8px;
-
 }
