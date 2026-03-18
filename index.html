@@ -145,23 +145,64 @@ View Full Case Study
 <img class="banner" src="images/kartboard.jpg">
 
 <h3>Kartboard Dash <span class="badge">Releasing Soon</span></h3>
+  
+  <p><strong>Role:</strong> Game Designer<br>
 
-<p>
-<strong>Kartboard Dash</strong> is an arcade kart racing game currently in development at <strong>Zatun Games</strong> for PC and mobile with cross-platform play. As Lead Game Designer, I defined the core gameplay systems that shape driving mechanics, race dynamics, and player progression.
-</p>
+  <h3>Problem</h3>
+  <p>
+    Arcade racing games often lose engagement due to predictable race flow and static mechanics. 
+    Players who fall behind early tend to disengage, while repeated races begin to feel similar and lack variety.
+  </p>
 
-<ul>
+  <h3>My Approach</h3>
+  <p>
+    Focused on introducing controlled variability and dynamic race pacing. The goal was to ensure each race feels fresh 
+    while maintaining fairness and skill expression through layered systems that influence gameplay without removing player agency.
+  </p>
 
-<li>Designed the full <strong>vehicle handling model</strong> balancing responsive driving, drift mechanics, and accessibility across keyboard, controller, and touch inputs.</li>
+  <h3>Design Solutions</h3>
 
-<li>Created the <strong>powerup and perk modifier system</strong> introducing strategic race interactions while maintaining competitive balance.</li>
+  <h4>Per-Lap Modifier System</h4>
+  <ul>
+    <li>Designed a system that selects <strong>2 out of 5 modifiers randomly each race</strong></li>
+    <li>Modifiers dynamically alter gameplay conditions (speed, hazards, control variations)</li>
+    <li>Ensures high replayability by making each race structurally different</li>
+  </ul>
 
-<li>Shaped <strong>track flow and race pacing</strong>, collaborating with environment artists to support readable racing lines and high-speed gameplay.</li>
+  <h4>Skill-Based Rubberbanding</h4>
+  <ul>
+    <li>Integrated modifiers into a non-intrusive rubber-banding system</li>
+    <li>Creates situational advantages rather than artificial boosts</li>
+    <li>Maintains fairness while allowing skilled players to capitalize</li>
+  </ul>
 
-<li>Designed the <strong>player progression framework</strong> including unlockable perks, upgrades, and reward loops supporting both short sessions and long-term engagement.</li>
+  <h4>Core Gameplay Tuning</h4>
+  <ul>
+    <li>Responsive and skill-expressive kart handling</li>
+    <li>Track design supporting risk-reward decisions</li>
+    <li>Iterated feedback systems (boosts, collisions, recovery)</li>
+  </ul>
 
-</ul>
+  <h3>Impact</h3>
+  <ul>
+    <li>Increased replayability through dynamic race conditions</li>
+    <li>Maintained competitive tension across all race positions</li>
+    <li>Reduced early disengagement without compromising fairness</li>
+  </ul>
 
+  <h3>Key Contributions</h3>
+  <ul>
+    <li>Per-lap modifier system design and selection logic</li>
+    <li>Skill-based rubber-banding framework</li>
+    <li>Core gameplay systems and handling design</li>
+    <li>Player engagement and replayability optimization</li>
+  </ul>
+
+  <h3>Design Insight</h3>
+  <p>
+    Early iterations introduced too much unpredictability, reducing player control. The system was refined to ensure modifiers 
+    create opportunities rather than guarantees, allowing skilled players to consistently outperform while keeping races dynamic.
+  </p>
 <div class="media">
 
 <iframe
@@ -181,21 +222,65 @@ allowfullscreen>
 
 <h3>Project Pneuma <span class="badge">Releasing Soon</span></h3>
 
-<p>
-<strong>Project Pneuma</strong> is a survival horror experience currently in development at <strong>Zatun Games</strong>, focused on psychological tension and environmental storytelling. My work centered on designing systems that control gameplay pressure, player vulnerability, and encounter pacing.
-</p>
 
-<ul>
+  <p><strong>Role:</strong> Game Designer<br>
+  <h3>Problem</h3>
+  <p>
+    Designing an experience that is both mechanically engaging and immersive while staying true to SCP lore. 
+    Additionally, maintaining engagement required a system that adapts to different player playstyles without feeling predictable or punishing.
+  </p>
 
-<li>Designed a <strong>dynamic tension system</strong> that adapts encounter intensity based on player behavior to sustain psychological pressure.</li>
+  <h3>My Approach</h3>
+  <p>
+    Focused on two pillars: lore-driven gameplay design and adaptive difficulty systems. The goal was to align mechanics 
+    with narrative identity while dynamically scaling gameplay intensity based on player behavior.
+  </p>
 
-<li>Built the <strong>sanity system</strong>, linking player stability to environmental distortions, gameplay feedback, and enemy behavior changes.</li>
+  <h3>Design Solutions</h3>
 
-<li>Developed the <strong>stealth and encounter framework</strong>, encouraging observation, navigation, and resource management over direct combat.</li>
+  <h4>SCP-Driven Gameplay Design</h4>
+  <ul>
+    <li>Translated SCP lore into gameplay mechanics while preserving narrative authenticity</li>
+    <li><strong>Gashadokoro Boss Encounter:</strong></li>
+    <ul>
+      <li>Massive waist-up entity reinforcing scale and helplessness</li>
+      <li>Disrupts player through thrown objects and summoned SCP threats</li>
+      <li>Objective-based design: activate four high-powered lights to force disappearance</li>
+    </ul>
+    <li>Ensured mechanics reflect themes of scale, tension, and indirect confrontation</li>
+  </ul>
 
-<li>Collaborated closely with art and engineering teams to align gameplay systems with narrative tone and environmental storytelling.</li>
+  <h4>Adaptive Ramping System</h4>
+  <ul>
+    <li>Designed a behavior-based escalation system inspired by wanted-level mechanics</li>
+    <li>Tracks player actions and dynamically adjusts intensity:</li>
+    <ul>
+      <li>Aggressive play → increased enemy pressure</li>
+      <li>Stealth play → slower escalation with sustained tension</li>
+    </ul>
+    <li>Introduced variation to prevent predictability while maintaining consistency</li>
+  </ul>
 
-</ul>
+  <h3>Impact</h3>
+  <ul>
+    <li>Improved immersion through strong alignment between lore and gameplay</li>
+    <li>Created varied player experiences based on playstyle</li>
+    <li>Maintained long-term engagement through adaptive difficulty</li>
+  </ul>
+
+  <h3>Key Contributions</h3>
+  <ul>
+    <li>Design of SCP-based gameplay systems</li>
+    <li>Boss encounter design (Gashadokoro)</li>
+    <li>Adaptive difficulty and escalation system</li>
+    <li>Player behavior-driven system design</li>
+  </ul>
+
+  <h3>Design Insight</h3>
+  <p>
+    Initial escalation tuning caused aggressive players to feel overwhelmed too quickly. The system was refined to introduce 
+    gradual intensity spikes, making escalation feel reactive rather than punishing and allowing players to adapt to increasing pressure.
+  </p>
 
 
 
